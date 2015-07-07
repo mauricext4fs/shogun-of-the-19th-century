@@ -278,7 +278,7 @@ div.shogun-list div.period {
     height:300px;
 }
 
-div.shogun-list div.period p {
+div.shogun-list div.period p,h3 {
     display:table-cell !important;
     height: 200px;
     vertical-align:middle;
