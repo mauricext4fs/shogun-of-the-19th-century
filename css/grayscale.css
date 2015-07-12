@@ -379,6 +379,17 @@ img::-moz-selection {
     background: 0 0;
 }
 
+section#introduction div.container > div {
+    padding: 20px;
+    background-color: white;
+    color: black !important;
+    border-radius: 8px;
+}
+
+div.row.shogun-description {
+    margin-top: 20px;
+}
+
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
