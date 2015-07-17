@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.phonegap.example"
+        id          = "com.courtoisconsulting.shoguns"
         versionCode = "1" 
         version     = "0.0.1" >
 
-    <!-- versionCode is optional and Android only -->
+    <gap:splash src="img/splash.png" width="320" height="480" />
     <preference name="orientation" value="default" />
-    <name>Showgun of the nineteen century</name>
+    <name>Showguns of 19th century</name>
 
     <description>
         Presentation of the nineteen century shogun of Japan. 
