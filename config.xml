@@ -6,6 +6,7 @@
         version     = "0.0.1" >
 
     <gap:splash src="img/splash.png" width="320" height="480" />
+    <icon src="icon.png" />
     <preference name="orientation" value="default" />
     <name>Showguns of 19th century</name>
 
