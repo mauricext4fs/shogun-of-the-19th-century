@@ -5,7 +5,6 @@
         versionCode = "1" 
         version     = "0.0.5" >
 
-    <gap:splash src="img/splash.png" width="320" height="480" />
 
     <!-- ICONS -->
         
@@ -29,6 +28,11 @@
     <icon src="img/icons/winphone/icon.png" gap:platform="winphone" /> <!-- 57 pixels -->
     <icon src="img/icons/winphone/tileicon.png" gap:platform="winphone" gap:role="background" /> <!-- 72 pixels -->
 
+    <!-- SPLASH SCREENS -->
+    <gap:splash src="img/splash.png" />
+    <gap:splash src="img/splash/ios/splash320x480.png" gap:platform="ios" width="320" height="480" /> <!-- iPhone & iPod Touch non retina -->
+    <gap:splash src="img/splash/ios/splash640x960.png" gap:platform="ios" width="640" height="960" /> <!-- iPhone & iPod Touch retina 4- -->
+    <gap:splash src="img/splash/ios/splash640x1136.png" gap:platform="ios" width="640" height="1136" />
 
     <preference name="orientation" value="default" />
     <name>Showguns of 19th century</name>
