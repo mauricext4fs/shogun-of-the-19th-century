@@ -3,7 +3,7 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.courtoisconsulting.shoguns"
         versionCode = "1" 
-        version     = "0.0.1" >
+        version     = "0.0.4" >
 
     <gap:splash src="img/splash.png" width="320" height="480" />
     <icon src="icon.png" />
